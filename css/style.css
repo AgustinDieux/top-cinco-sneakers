@@ -137,10 +137,25 @@ p {
     margin-top: 35px;
 }
 
+.img-medium {
+    padding-left: 16px;
+}
+
+.titulo__historia{
+    margin: 16px;
+}
 /* imagen sobre nosotros */
 .img__sobrenosotros {
+    margin: 16px;
     width: 800px;
-    
+}
+
+.titulo__nosotros{
+    margin: 16px;
+}
+
+.parrafo__nosotros {
+    margin-left: 16px;
 }
 /* formulario */
 .form__email {
@@ -459,7 +474,6 @@ footer {
         display: flex;
         align-items: center;
         align-content: center;
-        margin: 16px;
     }
 }
 /* MEDIDA TABLET */
