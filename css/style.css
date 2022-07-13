@@ -339,6 +339,9 @@ footer {
         grid-column: 1/2;
         grid-row: 3/4;
     }
+    .main__img{
+        width:96%
+    }
     
     /* nike y adidas */
     .header__lista { 
@@ -448,11 +451,15 @@ footer {
         grid-row: 15/16;
         margin: 16px;
     }
+    .main__iframe{
+        width: 80%;
+    }
     /* historia del sneaker */
     .img-medium {
         display: flex;
         align-items: center;
         align-content: center;
+        margin: 16px;
     }
 }
 /* MEDIDA TABLET */
