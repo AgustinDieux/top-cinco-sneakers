@@ -26,20 +26,27 @@
         <h2 class="titulo__nostros">Sobre nosotros</h2><!-- subtitulo de la pagina -->
         <img class="img__sobrenosotros" src="../resources/sobre_nosotros.jpg" alt="sobre nosotros"><!-- imagen principal -->
         <p class="parrafo__nosotros">Hola! primero que nada gracias por visitar nuestra pagina web. Nosotros somos un grupo de amigos apasionados por los sneakers que queremos compartir nuestro conocimiento con ustedes y que ustedes puedan compartir los suyos en la caja de comentarios de abajo.</p><!-- quienes somos -->
-        <form method="post"><!-- formulario -->
-            <div class="form__email">
-                <label>Email del usuario</label>
-                <input></div>
-            <div class="form__name">
-                <label>Nombre del usuario</label>
-                <input><!-- obtener info de un usuario en una sola linea --> 
+        <form class="form">
+            <h2 class="form__title">Deja tu opinion</h2>
+            <div class="form__container">
+                <div>
+                    <input type="text" id="name" class="form__imput" placeholder="">
+                    <label for="name" class="form__label">Nombre:</label>
+                    <span class="form__line"></span>
+                </div>
+                <div>
+                    <input type="text" id="user" class="form__imput" placeholder="">
+                    <label for="user" class="form__label">Usuario:</label>
+                    <span class="form__line"></span>
+                </div>
+                <div>
+                    <label for="comentarios" class="form__label">Deja tu comentario:</label>
+                    <textarea class="form__imput"></textarea>
+                    <span class="form__line"></span>
+                </div>
+                <input type="submit" class="form__submit" value="Enviar">
             </div>
-            <div class="form__coment">
-                <label>Deja tu comentario</label>
-                <textarea></textarea><!-- info que amerite mas de una linea NUNCA INFO SENSIBLE -->
-                <input type="submit" value="Enviar">
-                <input type="reset">
-            </div>
+        </form>
     </main>
     <footer><!-- pie de pagina -->
         <img class="footer__socialmedia" src="../resources/logo_instagram.jpg" alt="instagram"><!-- redes sociales -->

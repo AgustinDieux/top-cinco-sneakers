@@ -158,21 +158,49 @@ p {
     margin-left: 16px;
 }
 /* formulario */
-.form__email {
-    margin: 20px 0px 10px 10px;
+
+.form {
+    background-color: #fff;
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+    max-width: 400px;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
+    text-align: center;
 }
 
-.form__name {
-    margin: 20px 0px 10px 10px;
+.form__title {
+    font-size: 2rem;
+    margin-bottom: .5em;
+    color: black;
 }
 
-.form__coment {
-    margin: 20px 0px 10px 10px;
+.form__container {
+    margin-top: 3em;
+    display: grid;
+    gap: 2.5em;
+}
+
+
+.form__group{
+    position: relative;
+    --color: #5757577e;
+}
+
+.form__imput{
+    width: 100%;
+    background: none;
+    color: #706c6c;
+    font-size: 1rem;
+    padding: .6em .3em;
 }
 /* pie de pagina */
 footer {
     flex-wrap: wrap;
     text-align: center;
+    background-color: rgb(44, 43, 43);
 }
 /* redes sociales */
 .footer__socialmedia {
@@ -475,9 +503,17 @@ footer {
         align-items: center;
         align-content: center;
     }
+    /* historia sneaker */
+    .img-medium {
+        width: 80%;
+    }
+    /* sobre nosotros */
+    .img__sobrenosotros{
+        width: 80%;
+    }
 }
-/* MEDIDA TABLET */
-@media (min-width: 576px) and (max-width: 992px) {
+/* MEDIDA TABLET Y MONITORES CHICOS*/
+@media (min-width: 576px) and (max-width: 1880px) {
     
     .main__titulofoto{
         display: flex;
@@ -606,5 +642,12 @@ footer {
         grid-column: 1/2;
         grid-row: 15/16;
         margin: 16px;
+    }
+    /* historia sneaker */
+    .img-medium {
+        width: 80%;
+    }
+    .img__sobrenosotros{
+        width: 80%;
     }
 }
