@@ -13,10 +13,8 @@ header {
 
 }
 /* navegacion */
-.header__nav {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(44, 43, 43);
+.nav-link{
+    color: white !important;
 }
 /* logo de la navegacion */
 .nav__logo {
@@ -175,6 +173,11 @@ p {
     margin-left: 16px;
 }
 /* formulario */
+
+
+.form-label{
+    color: white;
+}
 
 .form {
     background-color: rgb(216, 212, 212);

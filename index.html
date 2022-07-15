@@ -10,32 +10,41 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Top cinco sneakers</title> <!-- Titulo de la pagina -->
 </head>
 
 <body><!-- todo dentro de body es contenido -->
     <header> <!-- encabezado: inlcluye la barra de navegacion y el logo  -->
-        <nav class="header__nav"> <!-- Navegacion -->
-        <a href="index.html"><img class="nav__logo" src="resources/android-chrome-512x512.png" alt="logo de la pagina"></a>  <!-- LOGO -->
-            <ul class="header__lista"> <!-- SECCIONES DE LA NAVEGACION -->
-                <div class="header__inicio">
-                    <li class="header__intem"><a href="index.html"> Inicio </a></li>
-                </div>
-                <div class="header__nike">
-                    <li class="header__intem"><a href="pages/nike.html"> Nike</a></li>
-                </div>
-                <div class="header__adidas">
-                    <li class="header__intem"><a href="pages/adidas.html">Adidas</a></li>
-                </div>
-                <div class="header__historia">
-                    <li class="header__intem"><a href="pages/historiasnkr.html">Historia del Sneaker</a></li>
-                </div>
-                <div class="header__nosotros">
-                    <li class="header__intem"><a href="pages/sobre-nosotros.html">Sobre nosotros</a></li>
-                </div>
-            </ul>
-        </nav> <!-- navegacion/menu -->
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="resources/favicon-32x32.png" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/nike.html">Nike</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/adidas.html">Adidas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/historiasnkr.html">Historia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/sobre-nosotros.html">Sobre Nosotros</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
         <h1 class="header__titulo">Top cinco sneakers</h1> <!-- Titulo -->
     </header>
     <main class="main__index"> <!-- todo el contenido de la pagina que no sea header o footer osea lo del medio -->
@@ -56,7 +65,8 @@
         <footer> <!-- Pie de pagina -->
             <a href="https://www.instagram.com/top5snkrs/" target="_blank"><img class="footer__socialmedia" src="resources/logo_instagram.jpg" alt="instagram"></a><!-- REDES SOCIALES -->
         </footer> <!-- pie de pagina -->
-        </main>
+        <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 
 </html>
