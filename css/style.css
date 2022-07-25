@@ -129,9 +129,15 @@ p {
     align-items: center;
     flex-direction: column;
 }
-
+.main__img:hover {
+    transform: scale(1.2, 1.2);
+    transition: all 1s;
+}
 .main__subtitulo--nike {
+    display: flex;
     align-self: center;
+    justify-content: center;
+    margin-top: 30px;
 }
 
 .adidas_samba {
@@ -173,8 +179,6 @@ p {
     margin-left: 16px;
 }
 /* formulario */
-
-
 .form-label{
     color: white;
 }
@@ -222,11 +226,26 @@ footer {
     text-align: center;
     background-color: rgb(44, 43, 43);
 }
+
+.footer__index{
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: rgb(44, 43, 43);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 /* redes sociales */
 .footer__socialmedia {
     width: 100px;
     height: 100px;
 }
+
+.footer__socialmedia:hover {
+    transform: scale(1.2, 1.2);
+    transition: all 1s;
+}
+
 /* grid index */
 .main__titulofoto {
     display: grid;
@@ -531,7 +550,16 @@ footer {
     .img__sobrenosotros{
         width: 80%;
     }
-}
+    .footer__index{
+        flex-wrap: wrap;
+        text-align: center;
+        background-color: rgb(44, 43, 43);
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+    }
+
 /* MEDIDA TABLET Y MONITORES CHICOS*/
 @media (min-width: 576px) and (max-width: 1880px) {
     
@@ -669,5 +697,13 @@ footer {
     }
     .img__sobrenosotros{
         width: 80%;
+    }
+    .footer__index{
+        flex-wrap: wrap;
+        text-align: center;
+        background-color: rgb(44, 43, 43);
+        position: relative;
+        bottom: 0;
+        width: 100%;
     }
 }
