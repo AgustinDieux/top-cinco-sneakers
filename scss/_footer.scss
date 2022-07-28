@@ -1,0 +1,26 @@
+/* pie de pagina *//* redes sociales */
+footer {
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: $color-secundario;
+    
+    .footer{
+        &__socialmedia {
+            width: 100px;
+            height: 100px;
+            &:hover {
+                transform: scale(1.2, 1.2);
+                transition: all 1s;
+            }
+        }
+        
+    }
+}
+.footer__index{
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: rgb(44, 43, 43);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

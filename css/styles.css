@@ -1,0 +1,494 @@
+/* COLORES */
+/* pie de pagina */
+/* redes sociales */
+footer {
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: #2c2b2b; }
+  footer .footer__socialmedia {
+    width: 100px;
+    height: 100px; }
+    footer .footer__socialmedia:hover {
+      transform: scale(1.2, 1.2);
+      transition: all 1s; }
+
+.footer__index {
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: #2c2b2b;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+
+.nav__logo {
+  width: 50px;
+  padding: 0px 16px; }
+
+.nav-link {
+  color: white !important; }
+
+.header__nav {
+  flex-direction: column; }
+
+* {
+  margin: 0px;
+  /* margen externo */
+  padding: 0px;
+  /* margen interno */ }
+
+/* color de la pagina - todo contenido de la pagina */
+body {
+  background-color: #3e3e41; }
+
+/* navegacion pegada arriba */
+header {
+  position: sticky;
+  top: 0px; }
+
+/* navegacion */
+/* logo de la navegacion */
+/* titulo de la pagina */
+.h1 {
+  display: flex;
+  align-items: center; }
+
+h1 {
+  padding: 0px 16px;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  color: #fffbfb; }
+
+/* todo el contenido de la pagina */
+main {
+  flex-wrap: wrap; }
+
+.main__def--subtitulo {
+  margin-bottom: 20px; }
+
+.main__index {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* definicion */ }
+  .main__index__titulofoto {
+    display: flex;
+    justify-content: center; }
+  .main__index__definicion {
+    flex-shrink: 5;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 16px; }
+
+/* foto principal */
+.inicio__img--principal {
+  width: 400px;
+  margin: 100px 0 0 16px; }
+
+/* subtitulo de la seccion */
+h2 {
+  font-family: "Rubik", sans-serif;
+  color: white; }
+
+/* parrafo */
+p {
+  color: white;
+  background-color: #2c2b2b; }
+
+/* fotos de la seccion nike - adidas */
+.main__img {
+  width: 400px; }
+  .main__img:hover {
+    transform: scale(1.2, 1.2);
+    transition: all 1s; }
+
+/* h2 de la seccion nike - adidas */
+.main__img--titulo {
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+
+/* main seccion nike - adidas */
+.main__nike {
+  display: flex;
+  flex-direction: column; }
+  .main__nike__imgnike {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+  .main__nike .main__subtitulo--nike {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-top: 30px; }
+
+.adidas_samba {
+  width: 395px;
+  height: 230px; }
+
+.adidas_nmd {
+  width: 395px;
+  height: 260px; }
+
+.main__imgnike {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  align-items: flex-end;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr; }
+  .main__imgnike .titulo__one {
+    align-self: center;
+    margin-bottom: 50px;
+    grid-column: 1/2;
+    grid-row: 1/2; }
+  .main__imgnike .nike__force {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    margin-left: 16px; }
+  .main__imgnike .texto_forceone {
+    align-self: flex-end;
+    margin-left: 40px;
+    grid-column: 2/4;
+    grid-row: 1/2; }
+  .main__imgnike .titulo__max {
+    align-self: center;
+    margin-bottom: 50px;
+    grid-column: 5/6;
+    grid-row: 2/3; }
+  .main__imgnike .nike_max {
+    display: flex;
+    justify-content: flex-end;
+    grid-column: 4/6;
+    grid-row: 2/3;
+    margin-right: 16px; }
+  .main__imgnike .texto__max {
+    grid-column: 3/5;
+    grid-row: 2/3;
+    align-self: flex-end;
+    margin-right: 40px; }
+  .main__imgnike .titulo__jordan {
+    align-self: center;
+    margin-bottom: 50px;
+    grid-column: 1/2;
+    grid-row: 3/4; }
+  .main__imgnike .nike_jordan {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    margin-left: 16px; }
+  .main__imgnike .parrafo__jordan {
+    align-self: flex-end;
+    margin-left: 40px;
+    grid-column: 2/4;
+    grid-row: 3/4; }
+  .main__imgnike .titulo__huarache {
+    align-self: center;
+    margin-bottom: 450px;
+    grid-column: 5/6;
+    grid-row: 4/5; }
+  .main__imgnike .huarache_nike {
+    display: flex;
+    justify-content: flex-end;
+    grid-column: 4/6;
+    grid-row: 4/5;
+    margin-right: 16px;
+    height: 350px; }
+  .main__imgnike .parrafo__huarache {
+    grid-column: 3/5;
+    grid-row: 4/5;
+    align-self: flex-end;
+    margin-right: 40px; }
+  .main__imgnike .titulo__waffle {
+    align-self: center;
+    margin-bottom: 100px;
+    grid-column: 1/2;
+    grid-row: 5/6; }
+  .main__imgnike .waffle_nike {
+    grid-column: 1/3;
+    grid-row: 5/6;
+    margin-left: 16px; }
+  .main__imgnike .parrafo__waffle {
+    align-self: flex-end;
+    grid-column: 2/4;
+    grid-row: 5/6;
+    margin-left: 40px; }
+
+/* historia sneaker */
+.main__historiasnkr .parrafo__historia {
+  padding: 0 16px;
+  margin-bottom: 100px;
+  margin-top: 35px; }
+
+.main__historiasnkr .img-medium {
+  padding-left: 16px; }
+
+.main__historiasnkr .titulo__historia {
+  margin: 16px; }
+
+/* imagen sobre nosotros */
+.img__sobrenosotros {
+  margin: 16px;
+  width: 800px; }
+
+.titulo__nosotros {
+  margin: 16px; }
+
+.parrafo__nosotros {
+  margin-left: 16px; }
+
+/* formulario */
+.form-label {
+  color: white; }
+
+/* grid index */
+.main__titulofoto {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr; }
+
+.img__principal {
+  display: flex;
+  justify-content: flex-end;
+  grid-column: 1/2;
+  grid-row: 1/3; }
+
+.main__def {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin: 16px; }
+
+.main__sub {
+  display: flex;
+  justify-content: flex-end;
+  grid-column: 1/2;
+  grid-row: 1/2; }
+
+/* nike-adidas */
+/* MEDIDA DEL CELULAR */
+@media (min-width: 320px) and (max-width: 575px) {
+  .main__titulofoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto; }
+  .img__principal {
+    display: flex;
+    justify-content: flex-end;
+    grid-column: 1/2;
+    grid-row: 1/2; }
+  .main__def {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    grid-column: 1/2;
+    grid-row: 2/3; }
+  .main__sub {
+    display: flex;
+    justify-content: center;
+    grid-column: 1/2;
+    grid-row: 3/4; }
+  .main__img {
+    width: 96%; }
+  /* nike y adidas */
+  .header__lista {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .header__nav {
+    flex-direction: column; }
+  .main__imgnike {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto; }
+  .titulo__one {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    grid-column: 1/2;
+    grid-row: 1/2; }
+  .nike__force {
+    grid-column: 1/2;
+    grid-row: 2/3; }
+  .texto_forceone {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin: 16px; }
+  .titulo__max {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    grid-column: 1/2;
+    grid-row: 4/5; }
+  .nike_max {
+    grid-column: 1/2;
+    grid-row: 5/6; }
+  .texto__max {
+    grid-column: 1/2;
+    grid-row: 6/7;
+    margin: 16px; }
+  .titulo__jordan {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    grid-column: 1/2;
+    grid-row: 7/8; }
+  .nike_jordan {
+    grid-column: 1/2;
+    grid-row: 8/9; }
+  .parrafo__jordan {
+    grid-column: 1/2;
+    grid-row: 9/10;
+    margin: 16px; }
+  .titulo__huarache {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    grid-column: 1/2;
+    grid-row: 10/11; }
+  .huarache_nike {
+    grid-column: 1/2;
+    grid-row: 11/12; }
+  .parrafo__huarache {
+    grid-column: 1/2;
+    grid-row: 12/13;
+    margin: 16px; }
+  .titulo__waffle {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    grid-column: 1/2;
+    grid-row: 13/14; }
+  .waffle_nike {
+    grid-column: 1/2;
+    grid-row: 14/15; }
+  .parrafo__waffle {
+    grid-column: 1/2;
+    grid-row: 15/16;
+    margin: 16px; }
+  .main__iframe {
+    width: 80%; }
+  /* historia del sneaker */
+  .img-medium {
+    display: flex;
+    align-items: center;
+    align-content: center; }
+  /* historia sneaker */
+  .img-medium {
+    width: 80%; }
+  /* sobre nosotros */
+  .img__sobrenosotros {
+    width: 80%; }
+  .footer__index {
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #2c2b2b;
+    position: relative;
+    bottom: 0;
+    width: 100%; } }
+
+/* MEDIDA TABLET Y MONITORES CHICOS*/
+@media (min-width: 576px) and (max-width: 1880px) {
+  .main__titulofoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto; }
+  .img__principal {
+    display: flex;
+    justify-content: flex-end;
+    grid-column: 1/2;
+    grid-row: 1/2; }
+  .main__def {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    grid-column: 1/2;
+    grid-row: 2/3; }
+  .main__sub {
+    display: flex;
+    justify-content: center;
+    grid-column: 1/2;
+    grid-row: 3/4; }
+  /* nike-adidas */
+  .main__imgnike {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto; }
+  .titulo__one {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    grid-column: 1/2;
+    grid-row: 1/2; }
+  .nike__force {
+    grid-column: 1/2;
+    grid-row: 2/3; }
+  .texto_forceone {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin: 16px; }
+  .titulo__max {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    grid-column: 1/2;
+    grid-row: 4/5; }
+  .nike_max {
+    grid-column: 1/2;
+    grid-row: 5/6; }
+  .texto__max {
+    grid-column: 1/2;
+    grid-row: 6/7;
+    margin: 16px; }
+  .titulo__jordan {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    grid-column: 1/2;
+    grid-row: 7/8; }
+  .nike_jordan {
+    grid-column: 1/2;
+    grid-row: 8/9; }
+  .parrafo__jordan {
+    grid-column: 1/2;
+    grid-row: 9/10;
+    margin: 16px; }
+  .titulo__huarache {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    grid-column: 1/2;
+    grid-row: 10/11; }
+  .huarache_nike {
+    grid-column: 1/2;
+    grid-row: 11/12; }
+  .parrafo__huarache {
+    grid-column: 1/2;
+    grid-row: 12/13;
+    margin: 16px; }
+  .titulo__waffle {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    grid-column: 1/2;
+    grid-row: 13/14; }
+  .waffle_nike {
+    grid-column: 1/2;
+    grid-row: 14/15; }
+  .parrafo__waffle {
+    grid-column: 1/2;
+    grid-row: 15/16;
+    margin: 16px; }
+  /* historia sneaker */
+  .img-medium {
+    width: 80%; }
+  .img__sobrenosotros {
+    width: 80%; }
+  .footer__index {
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #2c2b2b;
+    position: relative;
+    bottom: 0;
+    width: 100%; } }
