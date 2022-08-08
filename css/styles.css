@@ -46,7 +46,7 @@ footer {
   padding: 0px 16px; }
 
 .nav-link {
-  color: white !important; }
+  color: white; }
 
 .header__nav {
   flex-direction: column; }
@@ -140,6 +140,21 @@ footer {
   .main__imgnike .parrafo__waffle {
     grid-column: 2/4;
     grid-row: 5/6; }
+
+.texto__forceone {
+  margin-bottom: 0px; }
+
+.texto__airmax {
+  margin-bottom: 0px; }
+
+.texto__jordan {
+  margin-bottom: 0px; }
+
+.texto__huarache {
+  margin-bottom: 0px; }
+
+.texto__waffle {
+  margin-bottom: 0px; }
 
 * {
   margin: 0px;
